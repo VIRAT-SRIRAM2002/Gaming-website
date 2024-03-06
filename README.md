@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Required:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Html,Css,Javascript,ReactJs
 
-## Available Scripts
+# First of all create the folder Gaming in the desktop
 
-In the project directory, you can run:
+Then open the vs code to create the react app with name gaming site
+the react app created with some folder and files
 
-### `npm start`
+# my task is create the gaming site with own created logo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# So i am create the my logo GG GamersGalaxy
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# And using the css to style and animate the logo.using change color key frames to animate my logo
 
-### `npm test`
+# Then create new folder inside the src Home . It is the main page of the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Create the menubar lists Home,consolegames,mobilegames,pcmacgames
 
-### `npm run build`
+# use the React-Router module to route the difftrent pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Then accuweather api login to create the app with the name Weatherdata.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Provide the specific api key to access the URL for the website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# create the new folder weather.js to find and display the diffrent city weathers
 
-### `npm run eject`
+# Also the footer list aboutus,privacypolicy,contactus all are route to the another page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Home page was designed with logo, then navbar menu items,popular games and mobile games,footer then aside side the api to fetch the weather data
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+required modules are installed in the terminal
+npm i axios
+npm i react-router-dom
+npm i react-icons-kit
+npm i react-spinners-kit
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# I will face the some error on fetch the api data so i will use axios then to get the data for the available time.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I will create my own style structure and integration in the task.
