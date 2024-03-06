@@ -1,0 +1,148 @@
+.consolegames{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.congame-1 img{
+    height:300px;
+    width:500px;
+    margin-top: 10px;
+    width: 500px;
+}
+.congame-2 img{
+    margin-top: 490px;
+    margin-left: -580px;
+    height: 300px;
+    width: 500px;
+}
+
+
+.congame-3 img{
+    height:300px;
+    width:500px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.congame-4 img{
+    margin-top: 490px;
+    margin-left: -580px;
+    height: 300px;
+    width: 510px;
+}
+
+.contentcon-1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentcon-1 p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.contentcon-1 button{
+    width:110px;
+    height: 39px;
+    margin-top: 34px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentcon-1 button:hover{
+    background-color: coral;
+}
+
+.contentcon-2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentcon-2 p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -550px;
+}
+
+.contentcon-2 button{
+    width:110px;
+    height: 39px;
+    margin-top: 24px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentcon-2 button:hover{
+    background-color: darkcyan;
+}
+
+.contentcon-3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentcon-3 p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 80px;
+}
+
+.contentcon-3 button{
+    width:110px;
+    height: 39px;
+    margin-top: 34px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentcon-3 button:hover{
+    background-color: darkmagenta;
+}
+
+.contentcon-4{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentcon-4 p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: -600px;
+}
+
+.contentcon-4 button{
+    width:110px;
+    height: 39px;
+    margin-top: 34px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentcon-4 button:hover{
+    background-color: violet;
+}

@@ -1,0 +1,145 @@
+.pcmacgames{
+    display: flex;
+    flex-direction: row;
+    gap:130px;
+}
+
+.pcgame1 img{
+    height:300px;
+    width:500px;
+   
+}
+.pcgame2 img{
+    margin-top: 400px;
+    margin-left: -630px;
+    height: 300px;
+    width: 500px;
+}
+
+
+.pcgame3 img{
+    height:300px;
+    width:500px;
+}
+
+.pcgame4 img{
+    margin-top: 400px;
+    margin-left: -630px;
+    height: 300px;
+    width: 500px;
+}
+.pcgame1 p{
+    margin-top: 30px;
+}
+
+.contentpc-1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentpc-1 button{
+    width:110px;
+    height: 39px;
+    margin-top: 24px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentpc-1 button:hover{
+    background-color: chocolate;
+}
+
+.contentpc-1 p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.contentpc-2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: -600px;
+    margin-top: 30px;
+}
+
+.contentpc-2 p{
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.contentpc-2 button{
+    width:110px;
+    height: 39px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentpc-2 button:hover{
+    background-color: chocolate;
+}
+
+.contentpc-3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contentpc-3 p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.contentpc-3 button{
+
+    width:110px;
+    height: 39px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentpc-3 button:hover{
+    background-color:chartreuse;
+}
+
+.contentpc-4{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: -630px;
+}
+
+.contentpc-4 p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.contentpc-4 button{
+    width:110px;
+    height: 39px;
+    margin-top: 33px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contentpc-4 button:hover{
+    background-color: yellow;
+}

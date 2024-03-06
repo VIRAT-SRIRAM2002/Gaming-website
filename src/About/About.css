@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.content p{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.content h1{
+    font-size: 40px;
+}

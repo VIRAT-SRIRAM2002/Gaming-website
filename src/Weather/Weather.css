@@ -1,0 +1,13 @@
+.current-conditions-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: -500px;
+    margin-bottom: -400px;
+}
+
+.details img{
+    height: 200px;
+    width: 400px;
+    margin-bottom: -300px;
+    margin-left: -100px;
+}
