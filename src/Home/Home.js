@@ -14,14 +14,15 @@ import home_3 from "../Assets/home_3.jpeg";
 import Weather from "../Weather/Weather";
 
 const Home = () => {
+  const [menu, setmenu] = useState("home");
   const [citySearch, setCitySearch] = useState("");
   const [cityData, setCityData] = useState(null);
 
   const fetchCity = (e) => {
     e.preventDefault();
     axios
-      .post(
-        `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=ICfOrVGI3ofdnGODMlLrRMwyPbISOCdO&q=${citySearch}`
+      .get(
+        `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=OLcWeNMV32E3haKDDgvgCMRhzoAGqZVs&q=${citySearch}`
       )
       .then((res) => {
         setCityData(res.data[0]);
@@ -29,7 +30,6 @@ const Home = () => {
       })
       .catch((err) => console.log(err.message));
   };
-  const [menu, setmenu] = useState("home");
 
   return (
     <div className="main">

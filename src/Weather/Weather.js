@@ -5,7 +5,7 @@ import sun from "../Assets/sun.png";
 import moon from "../Assets/moon.png";
 import { PushSpinner } from "react-spinners-kit";
 
-const Weather = ({ cityData }) => {
+export const Weather = ({ cityData }) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -13,8 +13,8 @@ const Weather = ({ cityData }) => {
     setData(null);
     setLoading(true);
     axios
-      .post(
-        `http://dataservice.accuweather.com/currentconditions/v1/${cityData.Key}?apikey=ICfOrVGI3ofdnGODMlLrRMwyPbISOCdO`
+      .get(
+        `http://dataservice.accuweather.com/currentconditions/v1/${cityData.Key}?apikey=OLcWeNMV32E3haKDDgvgCMRhzoAGqZVs`
       )
       .then((res) => {
         setData(res.data[0]);
@@ -51,5 +51,4 @@ const Weather = ({ cityData }) => {
     </>
   );
 };
-
 export default Weather;
